@@ -15,3 +15,10 @@ def input_to_index(input)
     #puts int_input
   new_input = int_input - 1
 end
+
+#board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
+
+def move (board_array, index, character="X")
+  board_array[index] = character
+  display_board(board)
+end
