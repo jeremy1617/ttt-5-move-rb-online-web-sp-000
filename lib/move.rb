@@ -11,5 +11,5 @@ def input_to_index(input)
   puts "What move would you like to make"
   raw_input = "input"
   int_input = raw_input.to_i
-  new_input - int_input -1
+  new_input = int_input -1
 end
