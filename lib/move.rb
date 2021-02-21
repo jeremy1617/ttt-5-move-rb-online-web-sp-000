@@ -19,7 +19,7 @@ end
 #board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
 
 def move (board, index, character = "X")
-  board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
+  #board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
   board[index] = character
   display_board(board)
 end
