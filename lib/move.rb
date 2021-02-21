@@ -9,5 +9,5 @@ end
 # code your input_to_index and move method here!
 def input_to_index(space)
   puts "What move would you like to make"
-  user_input = space.to_i -1
+  user_input = user_input.to_i -1
 end
