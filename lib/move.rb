@@ -18,7 +18,8 @@ end
 
 board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
 
-def move (board_array, index, character = "X")
-  board_array[index] = character
+def move (board, index, character = "X")
+  board = ["   ","   ","   ","   ","   ","   ","   ","   ","   "]
+  board[index] = character
   display_board(board)
 end
